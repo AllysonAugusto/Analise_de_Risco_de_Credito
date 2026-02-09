@@ -1,6 +1,7 @@
 # Análise de Risco de Crédito com Machine Learning
 
-Este projeto tem como objetivo realizar a **análise de risco de crédito**, utilizando algoritmos de **Machine Learning** para prever se um cliente poderá se tornar inadimplente, com base em informações financeiras e pessoais.
+Este projeto tem como objetivo realizar a **análise de risco de crédito**, utilizando algoritmos de **Machine Learning** para prever se um cliente irá ou não se tornar inadimplente, com base em dados financeiros e pessoais.
+
 ---
 
 ## Objetivos do Projeto
@@ -58,19 +59,6 @@ Este projeto tem como objetivo realizar a **análise de risco de crédito**, uti
 - **Linguagem:** Python  
 - **Bibliotecas:** NumPy, Pandas, Scikit-learn  
 - **Ambientes de desenvolvimento:** Google Colab, Jupyter Notebook  
-
----
-
-## Avaliação do Modelo
-
-O desempenho dos modelos é avaliado utilizando métricas de classificação, como:  
-
-- **Accuracy:** Precisão geral do modelo  
-- **Precision:** Proporção de verdadeiros positivos entre todos os positivos previstos  
-- **Recall:** Proporção de verdadeiros positivos entre todos os positivos reais  
-- **F1-score:** Média harmônica entre precision e recall  
-
-Essas métricas ajudam a entender a eficácia e a confiabilidade das previsões do modelo.
 
 ---
 
