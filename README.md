@@ -2,8 +2,6 @@
 
 Este projeto tem como objetivo realizar a **análise de risco de crédito**, utilizando algoritmos de **Machine Learning** para prever se um cliente irá ou não se tornar inadimplente, com base em dados financeiros e pessoais.
 
-O projeto possui caráter **educacional**, sendo desenvolvido como parte dos estudos em **Data Science e Machine Learning**, com foco na compreensão prática dos algoritmos de classificação.
-
 ---
 
 ## Objetivo
@@ -66,4 +64,4 @@ credit-risk-analysis/
     ├── credit_data.csv
     └── outros_datasets.csv
 
-```bash
+```
