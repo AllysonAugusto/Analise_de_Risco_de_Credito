@@ -74,6 +74,8 @@ Este projeto tem como objetivo realizar a análise de risco de crédito, utiliza
 │   └── credit_risk.ipynb       # notebook principal com análise exploratória e pré-processamento
 ├── datasets/
 │   └── credit_risk_dataset.csv # base de dados de clientes
+│   └── adult.data.csv          # base de treinamento - Census Income
+│   └── adult.test.csv          # dados de teste - Census Income
 ├── requirements.txt            # bibliotecas necessárias
 └── README.md                   # documentação do projeto
   ```
