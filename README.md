@@ -1,68 +1,68 @@
 # 📊 Análise de Risco de Crédito com Machine Learning
 
-## 📌 Sobre o Projeto
-
-Este projeto tem como objetivo realizar a análise exploratória de dados de crédito e preparar a base para aplicação de modelos de Machine Learning que preveem a inadimplência de clientes.
-
-O foco atual do projeto está no pré-processamento e na preparação dos dados.
+Este projeto tem como objetivo realizar a análise de risco de crédito, utilizando algoritmos de Machine Learning para prever se um cliente irá ou não se tornar inadimplente, com base em dados financeiros e pessoais.
 
 ---
 
-## 🎯 Objetivos
+## Objetivos do Projeto
 
-- Explorar e entender os dados
-- Identificar valores inconsistentes e faltantes
-- Realizar limpeza e tratamento dos dados
-- Separar variáveis preditoras e variável alvo
-- Aplicar escalonamento dos dados
-
----
-
-## 📂 Fonte dos Dados
-
-Base adaptada de:
-
-🔗 [Kaggle - Credit Risk Dataset](https://www.kaggle.com/datasets/laotse/credit-risk-dataset)
+- Explorar e analisar dados de clientes  
+- Prever o risco de inadimplência  
+- Aplicar diferentes algoritmos de Machine Learning  
+- Avaliar e comparar o desempenho dos modelos  
 
 ---
 
-## 🛠️ Tecnologias Utilizadas
+## Conceitos Abordados
 
-- Python
-- Pandas
-- NumPy
-- Seaborn
-- Matplotlib
-- Plotly
-- Scikit-learn
+- Machine Learning supervisionado e não supervisionado  
+- Algoritmos de classificação, regressão e agrupamento  
+- Pré-processamento e limpeza de dados  
+- Treinamento, validação e teste de modelos  
+- Avaliação de modelos com métricas adequadas  
 
 ---
 
-## 📊 Etapas Realizadas
+## Algoritmos Utilizados
 
-### 1️⃣ Importação das bibliotecas
-Instalação e importação das bibliotecas necessárias para análise e visualização.
+### Classificação
 
-### 2️⃣ Exploração dos dados
-- Visualização inicial
-- Análise de tipos de dados
-- Identificação de valores faltantes
+- Pré-processamento de dados  
+- Naïve Bayes  
+- Árvores de decisão  
+- Random Forest  
+- Regressão logística  
+- Support Vector Machines (SVM)  
+- Redes Neurais Artificiais  
+- Avaliação com métricas: Accuracy, Precision, Recall e F1-score  
 
-### 3️⃣ Visualização dos dados
-- Gráficos exploratórios
-- Análise de distribuições
-- Identificação de padrões
+### Regressão
 
-### 4️⃣ Tratamento de valores inconsistentes e faltantes
-- Limpeza de dados
-- Correção de inconsistências
-- Organização de tipos
+- Regressão linear simples e múltipla  
+- Regressão polinomial  
+- Árvores de decisão  
+- Random Forest  
+- Support Vector Regression (SVR)  
+- Redes Neurais Artificiais  
 
-### 5️⃣ Divisão entre previsores e classe
-Separação das variáveis independentes (X) e variável alvo (y).
+### Regras de Associação
 
-### 6️⃣ Escalonamento dos dados
-Aplicação de técnicas de normalização para preparação dos modelos.
+- Algoritmo Apriori  
+- Algoritmo ECLAT  
+
+### Agrupamento
+
+- K-Means  
+- Agrupamento hierárquico  
+- DBSCAN  
+
+---
+
+## Tecnologias e Bibliotecas
+
+- **Linguagem:** Python  
+- **Bibliotecas:** NumPy, Pandas, Scikit-learn  
+- **Ambientes de desenvolvimento:** Google Colab, Jupyter Notebook  
 
 ---
 
