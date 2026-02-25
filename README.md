@@ -70,23 +70,25 @@ Este projeto tem como objetivo realizar a análise de risco de crédito, utiliza
 
 ```text
 .
-.
 ├── data/
-│   ├── raw/                         # dados brutos originais
+│   ├── raw/                              # dados brutos originais
 │   │   ├── adult.data
 │   │   └── adult.test
 │   │
-│   └── processed/                   # dados tratados e prontos para modelagem
+│   └── processed/                        # dados tratados e serializados
+│       ├── census.pkl
+│       ├── credit.pkl
+│       └── risco_credito.pkl
 │
-├── models/                          # modelos treinados prontos para uso
+├── models/                               # modelos treinados finais
 │   ├── svm_finalizado.sav
 │   ├── rede_neural_finalizado.sav
 │   └── arvore_finalizado.sav
 │
 ├── notebooks/
-│   └── credit_risk.ipynb            # análise exploratória, pré-processamento e modelagem
+│   └── credit_risk.ipynb                 # pipeline completo: EDA, pré-processamento, treinamento e avaliação
 │
-├── README.md                        # documentação do projeto
+├── README.md
 
   ```
 
