@@ -70,12 +70,23 @@ Este projeto tem como objetivo realizar a análise de risco de crédito, utiliza
 
 ```text
 .
-├── src/
-│   └── credit_risk.ipynb       # notebook principal com análise exploratória e pré-processamento
-├── datasets/
-│   └── credit_risk_dataset.csv # base de dados de clientes
-│   └── adult.data.csv          # base de treinamento - Census Income
-│   └── adult.test.csv          # dados de teste - Census Income
-└── README.md                   # documentação do projeto
+.
+├── data/
+│   ├── raw/                         # dados brutos originais
+│   │   ├── adult.data
+│   │   └── adult.test
+│   │
+│   └── processed/                   # dados tratados e prontos para modelagem
+│
+├── models/                          # modelos treinados prontos para uso
+│   ├── svm_finalizado.sav
+│   ├── rede_neural_finalizado.sav
+│   └── arvore_finalizado.sav
+│
+├── notebooks/
+│   └── credit_risk.ipynb            # análise exploratória, pré-processamento e modelagem
+│
+├── README.md                        # documentação do projeto
+
   ```
 
