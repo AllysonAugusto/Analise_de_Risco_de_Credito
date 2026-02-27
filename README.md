@@ -15,8 +15,7 @@ Este projeto tem como objetivo realizar a análise de risco de crédito, utiliza
 
 ## Conceitos Abordados
 
-- Machine Learning supervisionado e não supervisionado  
-- Algoritmos de classificação, regressão e agrupamento  
+- Algoritmos de classificação
 - Pré-processamento e limpeza de dados  
 - Treinamento, validação e teste de modelos  
 - Avaliação de modelos com métricas adequadas  
@@ -35,28 +34,6 @@ Este projeto tem como objetivo realizar a análise de risco de crédito, utiliza
 - Support Vector Machines (SVM)  
 - Redes Neurais Artificiais  
 - Avaliação com métricas: Accuracy, Precision, Recall e F1-score  
-
-### Regressão
-
-- Regressão linear simples e múltipla  
-- Regressão polinomial  
-- Árvores de decisão  
-- Random Forest  
-- Support Vector Regression (SVR)  
-- Redes Neurais Artificiais  
-
-### Regras de Associação
-
-- Algoritmo Apriori  
-- Algoritmo ECLAT  
-
-### Agrupamento
-
-- K-Means  
-- Agrupamento hierárquico  
-- DBSCAN  
-
----
 
 ## Tecnologias e Bibliotecas
 
